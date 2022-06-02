@@ -1,0 +1,34 @@
+.home_title{
+    height: 60px;
+        display: flex;
+        align-items: center;
+        background-color: #131921;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: black ;
+}
+
+.primary {
+    color: white;
+    font-size: 72px;
+}
+
+.home_button {
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: white;
+    padding: 20px 100px;
+}

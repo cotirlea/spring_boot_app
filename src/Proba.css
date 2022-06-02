@@ -1,0 +1,40 @@
+.proba {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: black;
+    z-index: 1;
+    border: 1px solid;
+    border-color: white;
+    border-width: thick;
+    border-radius: 8;
+}
+
+.proba_info {
+    height: 100px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.proba_text{
+    color: white;
+    font-size: 24px;
+    padding:10px;
+    align-items: center;
+}
+
+.button {
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: white;
+    padding: 10px 50px;
+}
